@@ -1,0 +1,83 @@
+:root {
+    --warna1: #EFAC13;
+    --warna2: #F2C87E;
+    --warna3: #FFECCF;
+    --warna4: #f6f6f6;
+}
+.container {
+    padding-top: 6rem;
+}
+.container:last-child {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+.border {
+    border: transparent;
+
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+.atasan, .atasan1 {
+    color: black;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: transparent;
+    margin-right: 30px;
+}
+.atasan:hover {
+    border-bottom: 2px solid var(--warna1);
+}
+.atasan1:hover {
+    border-bottom: 2px solid var(--warna1);
+}
+.image-box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: none;
+    background-color: #ccc;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-box input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+.image-box button {
+    position: absolute;
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer; 
+}
+input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.button {
+    background-color: var(--warna1); 
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+}

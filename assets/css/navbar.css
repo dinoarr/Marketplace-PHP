@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+nav {
+   background-color: #f0f0f0;
+   font-family: League Spartan;
+   font-weight: 400;
+}
+
+.nava:active {
+   transform: translateY(1px);
+}
+
+.btn.btn-login {
+   border: 1px solid #efac13;
+   color: #efac13;
+}
+
+.btn.btn-login:active {
+   transform: translateY(1px);
+}
+
+.btn.btn-regis:active {
+   transform: translateY(1px);
+}
+
+.btn.btn-login:hover {
+   border: 1px solid #f2c87e;
+   color: #f2c87e;
+}
+
+.btn.btn-regis {
+   border: 1px solid #efac13;
+   color: #ffff;
+   background-color: #efac13;
+}
+
+.btn.btn-regis:hover {
+   border: 1px solid #f2c87e;
+   color: #ffff;
+   background-color: #f2c87e;
+}

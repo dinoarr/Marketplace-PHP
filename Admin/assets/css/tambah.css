@@ -1,0 +1,74 @@
+:root {
+    --warna1: #EFAC13;
+    --warna2: #F2C87E;
+    --warna3: #FFECCF;
+    --warna4: #f6f6f6;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--warna4);
+}
+.main {
+    background-color: var(--warna2);
+    padding: 20px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+}
+
+
+input[type="text"],
+input[type="file"],
+input[type="datetime-local"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid var(--warna1);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+p {
+    color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container input[type="submit"],
+.button-container a {
+    padding: 10px 20px;
+    background-color: var(--warna1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-container input[type="submit"]:hover,
+.button-container a:hover {
+    background-color: var(--warna3);
+    color: black;
+}
